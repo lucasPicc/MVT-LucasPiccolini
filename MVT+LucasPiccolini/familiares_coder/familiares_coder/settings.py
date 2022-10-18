@@ -55,7 +55,7 @@ ROOT_URLCONF = 'familiares_coder.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['C:/Users/Lucas/OneDrive/Escritorio/Coder/MVT+LucasPiccolini/MVT+LucasPiccolini/familiares_coder/app_familia/Templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

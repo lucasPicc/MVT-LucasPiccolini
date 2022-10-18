@@ -4,5 +4,5 @@ from django.db import models
 class Familiar(models.Model):
     edad = models.IntegerField()
     nombre = models.CharField(max_length=30)
-    nacimiento = models.DateField()
+    nacimiento = models.CharField(max_length=10)
 

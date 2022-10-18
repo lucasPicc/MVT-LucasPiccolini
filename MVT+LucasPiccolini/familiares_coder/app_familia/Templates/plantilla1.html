@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos de familia</title>
+</head>
+
+<body>
+
+    <h1>
+    Hola. Estamos viendo los datos de mis familiares.
+    <h1>
+
+    <p><strong>Datos de la BBDD:</strong></p>
+    <p>
+        <ul>
+            {% for dato in datos_familiar %}
+            <li>{{dato.nombre}}: tiene {{dato.edad}} años y nacio el {{dato.nacimiento}}</li>
+            {% endfor %}
+        </ul>
+    </p>
+<body>
+</html>
